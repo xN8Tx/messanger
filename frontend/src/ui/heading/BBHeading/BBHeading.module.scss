@@ -1,0 +1,9 @@
+@import 'src/styles/variables.scss';
+
+.bbheading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: $white;
+  user-select: none;
+}

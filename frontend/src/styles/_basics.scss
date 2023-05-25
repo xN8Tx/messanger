@@ -1,0 +1,24 @@
+@import 'fonts';
+@import 'variables';
+
+body,
+input,
+button,
+a {
+  font-family: 'DM Sans';
+  font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+img {
+  user-select: none;
+}
+
+body {
+  background-color: $blueBlack;
+}

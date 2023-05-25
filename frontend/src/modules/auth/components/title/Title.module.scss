@@ -1,0 +1,9 @@
+@import 'src/styles/variables.scss';
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $xssMargin;
+}

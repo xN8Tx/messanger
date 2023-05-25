@@ -1,0 +1,19 @@
+@import 'src/styles/variables.scss';
+
+.input {
+  width: 100%;
+
+  padding: 13px 0;
+  padding-left: 17px;
+
+  font-size: 16px;
+  color: $white;
+
+  border-radius: $sRadius;
+
+  background-color: $black;
+
+  &::placeholder {
+    color: $grayWindow;
+  }
+}

@@ -1,7 +1,12 @@
-import './App.css';
+import Auth from '../modules/auth';
+import './App.scss';
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div className="app">
+      <Auth />
+    </div>
+  );
 }
 
 export default App;
