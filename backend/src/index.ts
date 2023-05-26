@@ -3,7 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import cookieParses from 'cookie-parser';
 
-import routes from './routes/routes.ts';
+import routes from './routes/routes.js';
 import startHttp from './utils/start-http.js';
 
 dotenv.config();

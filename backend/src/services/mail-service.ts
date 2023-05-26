@@ -2,7 +2,7 @@ import { createTransport, Transporter } from 'nodemailer';
 import { google } from 'googleapis';
 import dotenv from 'dotenv';
 
-import { template } from '../template/mail.template.ts';
+import { template } from '../template/mail-template.js';
 
 dotenv.config();
 

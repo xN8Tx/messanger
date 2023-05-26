@@ -10,6 +10,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+  "ignorePatterns": ["./dist"],
   "plugins": ["@typescript-eslint"],
   "rules": {
     "no-unused-vars": "warn",
