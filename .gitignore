@@ -13,3 +13,4 @@ frontend/.env
 .vscode/*
 .idea
 .DS_Store
+databases/postgresql/base

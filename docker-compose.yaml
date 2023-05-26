@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  db-postgresql:
+    container_name: db-postgresql
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: postgres
+    command:
+      - "postgres"
+      - "-c"
+      - "port=6101"
+    ports:
+      - 6101:6101
+    volumes:
+      - ./databases/postgresql/base:/var/lib/postgresql/data/
+
+  db-json:
+    container_name: db-json
+    image: clue/json-server
+    restart: always
+    volumes:
+      - ./databases/json/:/data/
+    ports:
+      - 6102:80
